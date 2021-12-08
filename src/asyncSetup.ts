@@ -1,6 +1,6 @@
 class ThingWithAsyncSetup {
     setupPromise: Promise<any>
-    isSetup: boolean
+    isSetup!: boolean
 
     constructor() {
         this.setupPromise = new Promise((resolve) => {
